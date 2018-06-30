@@ -58,12 +58,16 @@ emoji 表情                                   | emoji 代码            | commi
 
 `git commit`时直接在注释中写入**表情符号**的**代码**部分即可完成表情`emoji`的提交。
 
-举个栗子：
+**举个栗子**：
 
 ```sh
 $ git commit -m ':tada: init commit'
-$ git commit -m 'added code to package :art:'
+$ git commit -m 'added image to repo :art:'
 ```
+
+**效果展示**：
+
+![1530336428603](1530336428603.png)
 
 ## 格式与规则
 
