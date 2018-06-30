@@ -93,10 +93,10 @@ Git Commit emoji Guide   提交表情使用指北
 
 ## 快捷方式
 
-将上面的`gitmoji` 表情库内容放入一个普通的文本文件 [git-emoji-list.rst](git-emoji-list.rst)，将文件放入到path环境变量指向的位置，方便需要查看的时候能直接访问查看。
+将上面的`gitmoji` 表情库内容放入一个普通的文本文件 [git-emoji-list.md](git-emoji-list.md)，将文件放入到path环境变量指向的位置，方便需要查看的时候能直接访问查看。
 
 ```sh
-$ alias emoji='cat $PATH/git-emoji-list.rst'
+$ alias emoji='cat $PATH/git-emoji-list.md'
 $ emoji
 ```
 
@@ -265,7 +265,7 @@ $ gitmoji bug linter -s
 
 ### 本地化翻译
 
-找到`gitmojis.json`文件，在目录 `C:\Users\xxx\.gitmoji` 下。打开`gitmojis.json`文件将 `emoji`内容修改成中文，顺便将`description`描述也翻译成中文。
+找到`gitmojis.json`文件，在目录 `C:\Users\xxx\.gitmoji` 下。打开`gitmojis.json`文件将 `emoji`内容修改成中文，顺便将`description`描述也翻译成中文。[下载翻译好的 json文件](gitmojis.json)
 
 ```json
 [{"emoji":"馃帹","entity":"&#x1f3a8;","code":":art:","description":"Improving structure / format of the code.","name":"art"}
