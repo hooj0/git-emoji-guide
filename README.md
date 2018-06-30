@@ -89,7 +89,7 @@ Git Commit emoji Guide   提交表情使用指北
 
 ![1530333939856](img/1530333939856.png)
 
-# 快速开始
+# 快速入门
 
 ## 快捷方式
 
@@ -100,7 +100,7 @@ $ alias emoji='cat $PATH/git-emoji-list.md'
 $ emoji
 ```
 
-## 快速入门
+## 使用方法
 
 `git commit`时直接在注释中写入**表情符号**的**代码**部分即可完成表情`emoji`的提交。
 
@@ -300,4 +300,14 @@ $ gitmoji bug linter -s
 ```
 
 ![1530366406581](img/1530366406581.png)
+
+
+
+# 参考资料
+
+https://github.com/mrowa44/emojify
+
+https://github.com/muan/emoji
+
+https://github.com/carloscuesta/gitmoji
 
